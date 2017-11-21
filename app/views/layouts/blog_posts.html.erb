@@ -1,0 +1,8 @@
+<h1> Some of my blog postgs </h1>
+<%= yield %>
+
+  <% if content_for? :footer %>
+     <%= yield :footer %>
+    <% else %>
+      <p>Welcome to Blogs Indexes</p>
+    <% end %> 
